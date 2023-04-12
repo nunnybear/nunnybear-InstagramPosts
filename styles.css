@@ -1,0 +1,57 @@
+
+body{
+    background-color: black;
+}
+.flex-container{
+    display:flex;
+    justify-content:center;
+}
+.instaFeed{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    width:500px;
+    margin:20px;
+    margin-bottom:10px;
+
+}
+.instaHeadertxt{
+    display: flex;
+    justify-content: space-between;
+
+}
+h4{
+    margin-right:330px;
+}
+.ht5{
+    width:30px;
+    height:30px;
+    margin-top: 24px;
+    margin-left:20px;
+}
+#cottageImg{
+    display:flex;
+    flex-direction:column;
+    min-width: 500px;
+    width:100%;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    padding:0px;
+    margin-top:2px;
+}
+.instaIcons{
+    display:block;
+    margin-right:5px;
+}
+#bookmark{
+    margin-left:350px;
+}
+.instaLikes{
+    display:block;
+}
+.instaDescription{
+    overflow-wrap:normal;
+}
+.lowPart{
+    margin:15px;
+}
